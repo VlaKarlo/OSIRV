@@ -1,0 +1,30 @@
+path: ./  # Since your .txt files contain absolute paths, we set path to root
+train: cropped_data/fold_0_train.txt
+val: cropped_data/fold_0_val.txt
+
+names:
+  0: Bipolar_Forceps_Shaft
+  1: Bipolar_Forceps_Wrist
+  2: Bipolar_Forceps_Claspers
+  3: Prograsp_Forceps_Shaft
+  4: Prograsp_Forceps_Wrist
+  5: Prograsp_Forceps_Claspers
+  6: Large_Needle_Driver_Shaft
+  7: Large_Needle_Driver_Wrist
+  8: Large_Needle_Driver_Claspers
+  9: Vessel_Sealer_Shaft
+  10: Vessel_Sealer_Wrist
+  11: Vessel_Sealer_Claspers
+  12: Grasping_Retractor_Shaft
+  13: Grasping_Retractor_Wrist
+  14: Grasping_Retractor_Claspers
+  15: Monopolar_Curved_Scissors_Shaft
+  16: Monopolar_Curved_Scissors_Wrist
+  17: Monopolar_Curved_Scissors_Claspers
+  18: Probe
+  19: Other
+  20: Other
+  21: Other
+  22: Other
+  23: Other
+  
